@@ -315,11 +315,11 @@ body.dark .contact .row form .glow-on-hover{
 }
 
 .map .condet {
-  height: 500px;
-  width: 650px;
+  height: 600px;
+  width: 500px;
   background-color: #333;
   border: 20px solid #f2f2f2;
-  text-align: left;
+  text-align:center;
   font-size: 20px;
   color: whitesmoke;
 }
@@ -328,20 +328,22 @@ body.dark .contact .row form .glow-on-hover{
   -webkit-transition:1.3s ease-out;
   -moz-transition:1.3s ease-out;
   transition: 1.3s ease-out;
-  -webkit-transform: rotate(360deg);
+  /* -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
-  transform: rotate(360deg) ;
+  transform: rotate(360deg) ; */
 }
 
 .map .condet .vm h4 {
   text-align: center;
   padding-left: 45px;
+  padding-right: 45px;
   padding-top: 50px;
   padding-bottom: 9px;
 }
 .map .condet p {
   text-align: center;
   padding-left: 36px;
+  padding-right: 36px;
   padding-top: 0px;
   /* -webkit-transition: 0.4s ease;
       -moz-transition:  0.4s ease;

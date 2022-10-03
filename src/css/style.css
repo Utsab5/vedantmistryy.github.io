@@ -329,14 +329,19 @@ section {
 }
 
 .Brands .box-container .box p {
-  line-height: 1.0;
-  padding: 1rem 0;
+  /* line-height: 1.0; */
+  /* padding: 1rem 0; */
   font-size: 1.6rem;
   color: black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
 }
 
 .Brands .box-container .box img{
-  height: 190px;
+  /* height: 190px; */
+  width:100%;
   background-position: center;
 }
 /* .Brands .box-container .box:hover {
